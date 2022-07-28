@@ -11,6 +11,13 @@ html {
   color: white;
 }
 
+/* header,
+section,
+footer {
+  padding: 0;
+  margin: 0;
+} */
+
 ul {
   padding: 0;
   margin: 0;
@@ -38,11 +45,11 @@ img {
 
 
 
-/* TYPOGRAPHY */
+/* TYPOGRAPHY & BACKGROUNDS*/
 h1 {
   font-family: 'Barlow', sans-serif;
   font-weight: 400;
-  font-size: 68.8px;
+  font-size: 3.44rem;
   line-height: 63.7px;
   letter-spacing: 0.8px;
 }
@@ -50,7 +57,7 @@ h1 {
 h2 {
   font-family: 'Offside', cursive;
   font-weight: 400;
-  font-size: 42px;
+  font-size: 2.1rem;
   text-align: center;
 }
 
@@ -63,16 +70,23 @@ h3 {
 p {
   font-family: 'Barlow', sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  /* font-size: 20px; */
   line-height: 30px;
   letter-spacing: 0.2px;
   color: #fff;
 }
 
-.headerNav {
+.logo {
+  font-family: 'Offside', cursive;
+  font-weight: 400;
+  /* font-size: 20px; */
+  line-height: 20px;
+}
+
+.banner {
   font-family: 'Barlow', sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  /* font-size: 20px; */
   line-height: 29px;
   /* text-align: right; */
 }
@@ -80,18 +94,29 @@ p {
 .readMore {
   font-family: 'Offside', cursive;
   font-weight: 400;
-  text-size: 20px;
+  /* font-size: 20px; */
   line-height: 29px;
   text-align: center;
+  padding: 15px 30px;
+  background-color: #116500;
 }
 
-/* BACKGROUNDS */
+.blog .readMore {
+  color: #213C28;
+  background-color: #fff;
+}
+
+
 html {
   background-color: #D6F1E4;
 }
 
 header {
-  background-image: url(../panda-sanctuary/assets/header-image.png)
+  background-image: url(../panda-sanctuary/assets/header-image.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+  padding: 50px 0;
 }
 
 footer {
@@ -106,4 +131,22 @@ footer {
 p.copyright {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+/* POSITIONING */
+
+.banner {
+  position: fixed;
+  top: 0;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerNav {
+  display: flex;
+}
+
+.headerNav li {
+  margin-left: 50px;
 }
