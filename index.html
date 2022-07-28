@@ -54,7 +54,7 @@
           <div class="txt">
             <h2>More about our park</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, id. Suscipit, laboriosam necessitatibus blanditiis aliquam pariatur, esse culpa modi asperiores ad officia eum at. Commodi blanditiis doloremque sint deserunt aut! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis magnam inventore fuga exercitationem iure voluptatem facilis architecto eius laudantium tempora magni, molestiae vitae minus cupiditate quia repellat quo repudiandae nesciunt!</p>
-            <a href="READ MORE"></a>
+            <a href="" class="readMore">READ MORE</a>
           </div><!-- /.txt -->
         </div><!-- /.more -->
       </div><!--/.wrapper-->
@@ -64,6 +64,8 @@
     <!-- #BLOG -->
     <section id="blog" class="blog">
       <div class="wrapper">
+
+        <div class="blogPost">
           <div class="txt">
             <h2>Bobby and Bella</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, id. Suscipit, laboriosam necessitatibus blanditiis
@@ -71,10 +73,12 @@
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis magnam inventore fuga exercitationem iure voluptatem
               facilis architecto eius laudantium tempora magni, molestiae vitae minus cupiditate quia repellat quo repudiandae
               nesciunt!</p>
-            <a href="READ MORE"></a>
+            <a href="" class="readMore">READ MORE</a>
           </div><!-- /.txt -->
           <img src="../panda-sanctuary/assets/pascal-muller-4-eaj-iu-uxg-aq-unsplash@2x.png" alt="Two small pandas laying on their stomachs next to eachother">
+        </div>
 
+        <div class="blogPost second">
           <div class="txt">
             <h2>Look at Marco now</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, id. Suscipit, laboriosam necessitatibus blanditiis
@@ -82,9 +86,11 @@
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis magnam inventore fuga exercitationem iure voluptatem
               facilis architecto eius laudantium tempora magni, molestiae vitae minus cupiditate quia repellat quo repudiandae
               nesciunt!</p>
-            <a href="READ MORE"></a>
+            <a href="" class="readMore">READ MORE</a>
           </div><!-- /.txt -->
           <img src="../panda-sanctuary/assets/debbie-molle-6-dsid-8-ey-9-u-unsplash-1@2x.png" alt="Panda with bamboo leaves in its mouth">
+        </div>
+        
 
       </div> <!--/.wrapper-->
     </section>
@@ -126,31 +132,30 @@
     </section>
     <!-- /callsToAction -->
 
-
-    <!-- SUBSCRIBE -->
-    <div class="subscribe">
+    <!-- #CONTACT -->
+    <section id="contact" class="contact">
       <div class="wrapper">
-        <h3>Stay updated</h3>
-        <p>Subscribe to our newsletter to stay updated.</p>
-        <form action="subcribe">
-          <label for="email"></label>
-          <input type="email" name="email" id="email" placeholder="email address">
-          <label for="subscribe"></label>
-          <input type="button" value="SUBSCRIBE">
-        </form>
-      </div><!--/.wrapper-->
-    </div><!-- /.subscription container -->
+        <div class="subscribe">
+          <!-- <div class="wrapper"> -->
+            <h3>Stay updated</h3>
+            <p>Subscribe to our newsletter to stay updated.</p>
+            <form action="subcribe">
+              <label for="email"></label>
+              <input type="email" name="email" id="email" placeholder="email address">
+              <label for="subscribe"></label>
+              <input type="button" value="SUBSCRIBE">
+            </form>
 
-      <!-- #CONTACT -->
-      <div id="contact" class="contact">
-        <div class="wrapper"></div>
-          <div class="contactInfoContainer">
-            <h3>contact</h3>
+        </div><!-- /.subscription container -->
+
+        <div class="contactContainer">
+          <div class="contactTxt">
+            <h3>Contact</h3>
             <p>info@email.com</p>
             <p>123-456-7890</p>
             <p>123 some road, Toronto, ON</p>
             <p>A5A 5A5, Canada</p>
-          </div><!-- /.contactInfoContainer -->
+          </div><!-- /.contactTxt -->
           <nav class="contactNav">
             <ul>
               <li><a href="#home">home</a></li>
@@ -159,12 +164,14 @@
               <li><a href="#contact">contact</a></li>
             </ul>
           </nav><!-- /.contactNav -->
-        </div><!--/.wrapper-->
-      </div><!-- /CONTACT -->
+        </div><!-- /.contactContainer -->
+      </div><!--/.wrapper-->
+    </section><!-- /CONTACT -->
+
   </main>
 <!-- END OF MAIN -->
 
-  <!-- FOOTER -->
+<!-- FOOTER -->
   <footer>
     <div class="wrapper">
       <p class="copyright">Copyright © 2019 Juno College</p>

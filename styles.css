@@ -42,7 +42,7 @@ img {
 h1 {
   font-family: 'Barlow', sans-serif;
   font-weight: 400;
-  text-size: 68.8px;
+  font-size: 68.8px;
   line-height: 63.7px;
   letter-spacing: 0.8px;
 }
@@ -50,18 +50,20 @@ h1 {
 h2 {
   font-family: 'Offside', cursive;
   font-weight: 400;
-  text-size: 42px;
+  font-size: 42px;
   text-align: center;
 }
 
-/* h3 {
-
-} */
+h3 {
+  font-family: 'Offside', cursive;
+  font-weight: 400;
+  color: #116500;
+}
 
 p {
   font-family: 'Barlow', sans-serif;
-  font-weight: regular;
-  text-size: 20px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.2px;
   color: #fff;
@@ -70,12 +72,18 @@ p {
 .headerNav {
   font-family: 'Barlow', sans-serif;
   font-weight: 700;
-  text-size: 20px;
+  font-size: 20px;
   line-height: 29px;
   /* text-align: right; */
 }
 
-
+.readMore {
+  font-family: 'Offside', cursive;
+  font-weight: 400;
+  text-size: 20px;
+  line-height: 29px;
+  text-align: center;
+}
 
 /* BACKGROUNDS */
 html {
