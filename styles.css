@@ -8,6 +8,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 /* BASE STYLES */
 html {
   font-size: 125%; /* setting the ROOT size of the webpage */
+  color: white;
 }
 
 ul {
@@ -32,4 +33,69 @@ img {
   max-width: 1080px;
   width: 90%;
   margin: 0 auto;
+}
+
+
+
+
+/* TYPOGRAPHY */
+h1 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  text-size: 68.8px;
+  line-height: 63.7px;
+  letter-spacing: 0.8px;
+}
+
+h2 {
+  font-family: 'Offside', cursive;
+  font-weight: 400;
+  text-size: 42px;
+  text-align: center;
+}
+
+/* h3 {
+
+} */
+
+p {
+  font-family: 'Barlow', sans-serif;
+  font-weight: regular;
+  text-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+
+.headerNav {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 700;
+  text-size: 20px;
+  line-height: 29px;
+  /* text-align: right; */
+}
+
+
+
+/* BACKGROUNDS */
+html {
+  background-color: #D6F1E4;
+}
+
+header {
+  background-image: url(../panda-sanctuary/assets/header-image.png)
+}
+
+footer {
+  background-color: #2C2D2C;
+}
+
+.blog,
+.contact {
+  background-color: #213C28
+}
+
+p.copyright {
+  margin-top: 0;
+  margin-bottom: 0;
 }
